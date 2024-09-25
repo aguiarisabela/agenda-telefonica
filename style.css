@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form{
+    width: 600px;
+    background-color: #CCE0AC;
+    box-shadow: 13px 4px 10px 3px rgba(0, 0, 0, 0.258);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #fbeed4;
+    padding-top: 80px;
+    
+}
+
+header{
+    align-items: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 50px;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+#titulo1{
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 50px;
+    color:#ff5b5b
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+#form input::placeholder{
+    color: #ffff;
+    font-family: 'Montserrat';
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+form input{
+    background-color: #ff5b5b36;
+    margin-bottom: 30px;
+    align-items: center;
+    border: 1px solid #ff5b5b;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 500px;
+}
+
+#telefone{
+    width: 200px;
+}
+
+#btn{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #ff5b5b;
+    color: #ffff;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 8px;
+    margin: auto;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in;
+}
+
+#btn:hover{
+    background-color: #646e54;
+}
+
+h2{
+    font-family: 'Voltaire', sans-serif;
+    font-size: 40px;
+    color: #ff5b5b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 35px;
+}
+
+table{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+
+table th {
+    border-bottom: 4px solid #646e54;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff5b5b;
+}
+
+table td{
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ff5b5b;
+}
+
+table td img{
+    display: inline-flex;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+#rodape{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    margin-top: 16px;
+}
